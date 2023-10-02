@@ -1,0 +1,117 @@
+.header-about {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    padding-left: 360px;
+    padding-right: 360.87px;
+    background-color: #091242;
+}
+
+.header-info {
+    gap: 39px;
+}
+
+.header-info-bl {
+    gap: 12px;
+}
+
+.header-info-bl .info-bl-title {
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.header-info-bl:nth-child(1) .info-bl-title {
+    width: 176px;
+}
+
+.header-info-bl:nth-child(2) .info-bl-title {
+    width: 150px;
+}
+
+.header-bar {
+    padding-left: 361px;
+    padding-right: 361.01px;
+    background-color: #0557A3;
+}
+
+.header-nav-list {
+    gap: 30px;
+    list-style-type: none;
+    padding-top: 29.29px;
+    padding-bottom: 4px;
+}
+
+.header-nav-list .nav-list-item {
+    padding-bottom: 30px;   
+}
+
+.header-nav-list .nav-list-item:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+
+.header-nav-list .list-item__active {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.header-nav-list .nav-list-item a {
+    padding-right: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header-nav-list .dropdown-item {
+    gap: 5px;
+   
+}
+
+.header-nav-list .dropdown-item a {
+  padding-right: 0;
+  border: 0;
+}
+
+.header-nav-list .dropdown-item::after {
+    display: inline-block;
+    content: "";
+    margin-left: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}  
+
+
+.header-nav-list .dropdown-item .dropdown-link-btn {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+} 
+
+.header-bar-actions {
+    gap: 50px;
+}
+
+.header-social {
+    gap: 24px;
+    padding-top: 29.29px;
+    padding-bottom: 29.29px;
+}
+
+.header-actions-request {
+    display: block;
+    width: 216px;
+    padding-top: 30px;
+    padding-bottom: 31.39px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212A;
+    cursor: pointer;
+}

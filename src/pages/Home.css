@@ -1,0 +1,193 @@
+.home-main {
+    padding-top: 173px;
+    padding-bottom: 218px;
+    padding-left: 304px;
+    background: url("/public/images/home-main-bg.png") no-repeat;
+}
+
+.home-main-pattern,
+.home-services-pattern,
+.home-about-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.home-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.home-main-title {
+    width: 554px;
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.home-main-desc {
+    width: 571px;
+    margin-top: 6px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #FFFFFF;
+}
+
+.home-main-explore {
+    width: 194px;
+    margin-top: 24px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: url("/public/images/explore-bg.png") no-repeat;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212A;
+    cursor: pointer;
+}
+
+.home-services {
+    gap: 33px;
+    margin-top: 96px;
+    margin-left: 304px;
+    margin-right: 360px;
+    margin-bottom: 121px;
+}
+
+.home-services-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 7px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.home-services-title {
+    width: 294px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.home-services-content {
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+
+.services-item-title {
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.services-item-desc {
+    width: 270px;
+    margin-top: 13px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.home-about-wr {
+    position: relative;
+}
+
+.home-about {
+    padding-top: 85px;
+    padding-left: 86px;
+    padding-right: 86px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 360px;
+    top: 345px;
+    z-index: 10;
+}
+
+.home-about-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.home-about-title {
+    width: 472px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.home-about-desc {
+    width: 464px;
+    margin-bottom: 24px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.home-about-advantage {
+    gap: 15px;
+}
+
+.about-advantage-title {
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.home-about-counter {
+    margin-top: 86px;
+    border-top: 1px solid #D4D4D4;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.about-counter-item {
+    width: calc(1020px/2);
+    gap: 16px;
+    padding-top: 46px;
+    padding-bottom: 38px;
+    padding-left: 77px;
+}
+
+.about-counter-item:nth-child(1) {
+    padding-right: 106px;
+    border-right: 1px solid #D4D4D4;
+}
+
+.counter-item-num {
+    font-weight: 600;
+    font-size: 50px;
+    color: #1C1F35;
+}
+
+.counter-item-pattern {
+    width: 17px;
+    height: 17px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.counter-item-title {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #1C1F35;
+}
+

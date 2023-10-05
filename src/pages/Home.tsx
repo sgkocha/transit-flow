@@ -164,8 +164,8 @@ const Home = () => {
               <div><img src="images/quote.png" alt="quote" /></div>
             </div>
             <p className="testimonial-item-desc">
-              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative 
-              thinking to further the overall value proposition. Organically grow the holistic world 
+              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
+              thinking to further the overall value proposition. Organically grow the holistic world
               view of disruptive innovation via workplace diversity and empowerment.
             </p>
             <div className="testimonial-item-rating d-f">
@@ -188,8 +188,8 @@ const Home = () => {
               <div><img src="images/quote.png" alt="quote" /></div>
             </div>
             <p className="testimonial-item-desc">
-              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative 
-              thinking to further the overall value proposition. Organically grow the holistic world 
+              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
+              thinking to further the overall value proposition. Organically grow the holistic world
               view of disruptive innovation via workplace diversity and empowerment.
             </p>
             <div className="testimonial-item-rating d-f">
@@ -206,48 +206,122 @@ const Home = () => {
         <div className="home-choose d-f">
           <div className="home-choose-blue"></div>
           <div className="home-choose-info">
-              <div className="home-choose-caption d-f">
-                <div className="home-choose-pattern"></div>
-                <div className="home-choose-above">Why Choose</div>
+            <div className="home-choose-caption d-f">
+              <div className="home-choose-pattern"></div>
+              <div className="home-choose-above">Why Choose</div>
+            </div>
+            <div className="home-choose-title">We create opportunity to reach potential</div>
+            <p className="home-choose-desc">
+              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking
+              to further the overall value proposition.
+            </p>
+            <div className="home-choose-box d-f">
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option2.png" alt="choose-option2" /></div>
+                <div className="choose-item-title">Safe Package</div>
               </div>
-              <div className="home-choose-title">We create opportunity to reach potential</div>
-              <p className="home-choose-desc">
-                Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking 
-                to further the overall value proposition. 
-              </p>
-              <div className="home-choose-box d-f">
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option2.png" alt="choose-option2" /></div>
-                  <div className="choose-item-title">Safe Package</div>
-                </div>
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option3.png" alt="choose-option3" /></div>
-                  <div className="choose-item-title">Ship Everyware</div>
-                </div>
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option4.png" alt="choose-option4" /></div>
-                  <div className="choose-item-title">Global Tracking</div>
-                </div>
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option5.png" alt="choose-option5" /></div>
-                  <div className="choose-item-title">24/7 Support</div>
-                </div>
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option6.png" alt="choose-option6" /></div>
-                  <div className="choose-item-title">In Time Delivery</div>
-                </div>
-                <div className="home-choose-item d-f align-center">
-                  <div><img src="images/choose-option7.png" alt="choose-option7" /></div>
-                  <div className="choose-item-title">Transparant Pricing</div>
-                </div>
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option3.png" alt="choose-option3" /></div>
+                <div className="choose-item-title">Ship Everyware</div>
               </div>
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option4.png" alt="choose-option4" /></div>
+                <div className="choose-item-title">Global Tracking</div>
+              </div>
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option5.png" alt="choose-option5" /></div>
+                <div className="choose-item-title">24/7 Support</div>
+              </div>
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option6.png" alt="choose-option6" /></div>
+                <div className="choose-item-title">In Time Delivery</div>
+              </div>
+              <div className="home-choose-item d-f align-center">
+                <div><img src="images/choose-option7.png" alt="choose-option7" /></div>
+                <div className="choose-item-title">Transparant Pricing</div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="home-choose-moving">
-           <div className="choose-moving-content d-f align-center">
-                <div><img src="images/choose-option1.png" alt="choose-option1" /></div>
-                <div className="choose-moving-title">Moving your products across borders</div>
-           </div>
+          <div className="choose-moving-content d-f align-center">
+            <div><img src="images/choose-option1.png" alt="choose-option1" /></div>
+            <div className="choose-moving-title">Moving your products across borders</div>
+          </div>
+        </div>
+        <div className="home-team">
+          <div className="home-team-caption d-f">
+            <div className="home-team-pattern"></div>
+            <div className="home-team-above">The Transporters</div>
+          </div>
+          <h3 className="home-team-title">Meet Expert Team</h3>
+          <div className="home-team-box d-f jc-sb">
+            <div className="home-team-member">
+              <div><img src="images/team-member1.png" alt="team-member1" /></div>
+              <div className="team-member-info">
+                <div className="team-member-name">Jessca Arow</div>
+                <div className="team-member-pos">Designer</div>
+              </div>
+              <div className="team-social d-f">
+                <div><img src="images/team-social2.png" alt="team-social2" /></div>
+                <div><img src="images/team-social3.png" alt="team-social3" /></div>
+                <div><img src="images/team-social4.png" alt="team-social4" /></div>
+              </div>
+            </div>
+            <div className="home-team-member">
+              <div><img src="images/team-member2.png" alt="team-member2" /></div>
+              <div className="team-member-info">
+                <div className="team-member-name">Kathleen Smith</div>
+                <div className="team-member-pos">Designer</div>
+              </div>
+              <div className="team-social d-f">
+                <div><img src="images/team-social1.png" alt="team-social1" /></div>
+                <div><img src="images/team-social2.png" alt="team-social2" /></div>
+                <div><img src="images/team-social3.png" alt="team-social3" /></div>
+                <div><img src="images/team-social4.png" alt="team-social4" /></div>
+              </div>
+            </div>
+            <div className="home-team-member">
+              <div><img src="images/team-member3.png" alt="team-member3" /></div>
+              <div className="team-member-info">
+                <div className="team-member-name">Rebecca Tylor</div>
+                <div className="team-member-pos">Designer</div>
+              </div>
+              <div className="team-social d-f">
+                <div><img src="images/team-social3.png" alt="team-social3" /></div>
+                <div><img src="images/team-social4.png" alt="team-social4" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-contact">
+          <div className="home-contact-caption d-f">
+            <div className="home-contact-pattern"></div>
+            <div className="home-contact-above">Contact</div>
+          </div>
+          <div className="home-contact-content d-f">
+            <div>
+              <h3 className="home-contact-title">Get in touch with us</h3>
+              <p className="home-contact-desc">
+                Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
+                thinking to further the overall value.
+              </p>
+              <div className="home-contact-info">
+                <div className="contact-info-bl d-f align-center">
+                  <div><img src="images/contact-email.png" alt="contact-email" /></div>
+                  <div className="contact-info-title">Email <br/> contact@logistics.com</div>
+                </div>
+                <div className="contact-info-bl d-f align-center">
+                  <div><img src="images/contact-phone.png" alt="contact-phone.png" /></div>
+                  <div className="contact-info-title">Call Us  <br/> (00) 112 365 489</div>
+                </div>
+                <div className="contact-info-bl d-f align-center">
+                  <div><img src="images/contact-time.png" alt="contact-time.png" /></div>
+                  <div className="contact-info-title">Mon - Sat 9.00 - 18.00  <br/> Sunday Closed</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

@@ -9,7 +9,9 @@
 .home-services-pattern,
 .home-about-pattern,
 .home-testimonial-pattern,
-.home-choose-pattern {
+.home-choose-pattern,
+.home-team-pattern,
+.home-contact-pattern {
     width: 4px;
     height: 23px;
     background-color: rgba(255, 182, 41, 1);
@@ -120,7 +122,9 @@
 
 .home-about-above,
 .home-testimonial-above,
-.home-choose-above {
+.home-choose-above,
+.home-team-above,
+.home-contact-above {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 8px;
@@ -437,4 +441,115 @@
     width: 259px;
     font-size: 20px;
     color: #1C1F35;
+}
+
+.home-team {
+    margin-top: 95px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.home-team-caption {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.home-team-title {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #1C1F35;
+}
+
+.home-team-box {
+    margin-top: 40px;
+}
+
+.home-team-member {
+    width: 364px;
+    position: relative;
+}
+
+.team-member-info {
+    margin-top: -4px;
+    padding-top: 42px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    background-color: #1C1F35;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.team-member-pos {
+    margin-top: 2px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #FFFFFF;
+}
+
+.team-social {
+    width: fit-content;
+    gap: 25.09px;
+    padding: 20.07px 17.06px;
+    background-color: rgba(255, 182, 41, 1);
+    position: absolute;
+    bottom: 80.89px;
+    right: 0;
+}
+
+.home-contact {
+    margin-top: 101px;
+    padding: 143px 360px;
+    background-color: #091242;
+
+}
+
+.home-contact-content {
+    margin-top: 13px;
+}
+
+.home-contact-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.home-contact-desc {
+    width: 353px;
+    margin-top: 3px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #FFFFFF;
+}
+
+.home-contact-info {
+    margin-top: 32px;
+}
+
+.home-contact-info .contact-info-bl {
+    gap: 12.5px;
+    margin-bottom: 30px;
+} 
+
+.home-contact-info .contact-info-bl:last-child {
+    margin-bottom: 0;
+}
+
+
+.contact-info-title {
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
 }

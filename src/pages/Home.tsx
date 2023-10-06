@@ -249,81 +249,183 @@ const Home = () => {
             <div className="choose-moving-title">Moving your products across borders</div>
           </div>
         </div>
-        <div className="home-team">
-          <div className="home-team-caption d-f">
-            <div className="home-team-pattern"></div>
-            <div className="home-team-above">The Transporters</div>
-          </div>
-          <h3 className="home-team-title">Meet Expert Team</h3>
-          <div className="home-team-box d-f jc-sb">
-            <div className="home-team-member">
-              <div><img src="images/team-member1.png" alt="team-member1" /></div>
-              <div className="team-member-info">
-                <div className="team-member-name">Jessca Arow</div>
-                <div className="team-member-pos">Designer</div>
-              </div>
-              <div className="team-social d-f">
-                <div><img src="images/team-social2.png" alt="team-social2" /></div>
-                <div><img src="images/team-social3.png" alt="team-social3" /></div>
-                <div><img src="images/team-social4.png" alt="team-social4" /></div>
-              </div>
-            </div>
-            <div className="home-team-member">
-              <div><img src="images/team-member2.png" alt="team-member2" /></div>
-              <div className="team-member-info">
-                <div className="team-member-name">Kathleen Smith</div>
-                <div className="team-member-pos">Designer</div>
-              </div>
-              <div className="team-social d-f">
-                <div><img src="images/team-social1.png" alt="team-social1" /></div>
-                <div><img src="images/team-social2.png" alt="team-social2" /></div>
-                <div><img src="images/team-social3.png" alt="team-social3" /></div>
-                <div><img src="images/team-social4.png" alt="team-social4" /></div>
-              </div>
-            </div>
-            <div className="home-team-member">
-              <div><img src="images/team-member3.png" alt="team-member3" /></div>
-              <div className="team-member-info">
-                <div className="team-member-name">Rebecca Tylor</div>
-                <div className="team-member-pos">Designer</div>
-              </div>
-              <div className="team-social d-f">
-                <div><img src="images/team-social3.png" alt="team-social3" /></div>
-                <div><img src="images/team-social4.png" alt="team-social4" /></div>
-              </div>
-            </div>
-          </div>
+      </div>
+      <div className="home-team">
+        <div className="home-team-caption d-f">
+          <div className="home-team-pattern"></div>
+          <div className="home-team-above">The Transporters</div>
         </div>
-        <div className="home-contact">
-          <div className="home-contact-caption d-f">
-            <div className="home-contact-pattern"></div>
-            <div className="home-contact-above">Contact</div>
+        <h3 className="home-team-title">Meet Expert Team</h3>
+        <div className="home-team-box d-f jc-sb">
+          <div className="home-team-member">
+            <div><img src="images/team-member1.png" alt="team-member1" /></div>
+            <div className="team-member-info">
+              <div className="team-member-name">Jessca Arow</div>
+              <div className="team-member-pos">Designer</div>
+            </div>
+            <div className="team-social d-f">
+              <div><img src="images/team-social2.png" alt="team-social2" /></div>
+              <div><img src="images/team-social3.png" alt="team-social3" /></div>
+              <div><img src="images/team-social4.png" alt="team-social4" /></div>
+            </div>
           </div>
-          <div className="home-contact-content d-f">
-            <div>
-              <h3 className="home-contact-title">Get in touch with us</h3>
-              <p className="home-contact-desc">
-                Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
-                thinking to further the overall value.
-              </p>
-              <div className="home-contact-info">
-                <div className="contact-info-bl d-f align-center">
-                  <div><img src="images/contact-email.png" alt="contact-email" /></div>
-                  <div className="contact-info-title">Email <br/> contact@logistics.com</div>
-                </div>
-                <div className="contact-info-bl d-f align-center">
-                  <div><img src="images/contact-phone.png" alt="contact-phone.png" /></div>
-                  <div className="contact-info-title">Call Us  <br/> (00) 112 365 489</div>
-                </div>
-                <div className="contact-info-bl d-f align-center">
-                  <div><img src="images/contact-time.png" alt="contact-time.png" /></div>
-                  <div className="contact-info-title">Mon - Sat 9.00 - 18.00  <br/> Sunday Closed</div>
-                </div>
-              </div>
+          <div className="home-team-member">
+            <div><img src="images/team-member2.png" alt="team-member2" /></div>
+            <div className="team-member-info">
+              <div className="team-member-name">Kathleen Smith</div>
+              <div className="team-member-pos">Designer</div>
+            </div>
+            <div className="team-social d-f">
+              <div><img src="images/team-social1.png" alt="team-social1" /></div>
+              <div><img src="images/team-social2.png" alt="team-social2" /></div>
+              <div><img src="images/team-social3.png" alt="team-social3" /></div>
+              <div><img src="images/team-social4.png" alt="team-social4" /></div>
+            </div>
+          </div>
+          <div className="home-team-member">
+            <div><img src="images/team-member3.png" alt="team-member3" /></div>
+            <div className="team-member-info">
+              <div className="team-member-name">Rebecca Tylor</div>
+              <div className="team-member-pos">Designer</div>
+            </div>
+            <div className="team-social d-f">
+              <div><img src="images/team-social3.png" alt="team-social3" /></div>
+              <div><img src="images/team-social4.png" alt="team-social4" /></div>
             </div>
           </div>
         </div>
       </div>
+      <div className="home-contact">
+        <div className="home-contact-caption d-f">
+          <div className="home-contact-pattern"></div>
+          <div className="home-contact-above">Contact</div>
+        </div>
+        <div className="home-contact-content d-f">
+          <div>
+            <h3 className="home-contact-title">Get in touch with us</h3>
+            <p className="home-contact-desc">
+              Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative
+              thinking to further the overall value.
+            </p>
+            <div className="home-contact-info">
+              <div className="contact-info-bl d-f align-center">
+                <div><img src="images/contact-email.png" alt="contact-email" /></div>
+                <div className="contact-info-title">Email <br /> contact@logistics.com</div>
+              </div>
+              <div className="contact-info-bl d-f align-center">
+                <div><img src="images/contact-phone.png" alt="contact-phone.png" /></div>
+                <div className="contact-info-title">Call Us  <br /> (00) 112 365 489</div>
+              </div>
+              <div className="contact-info-bl d-f align-center">
+                <div><img src="images/contact-time.png" alt="contact-time.png" /></div>
+                <div className="contact-info-title">Mon - Sat 9.00 - 18.00  <br /> Sunday Closed</div>
+              </div>
+            </div>
+          </div>
+          <form action="" className='home-contact-fm'>
+            <div className="input-bl d-f">
+              <input type="text" name='fname' placeholder='Your name*' required />
+              <input type="email" name="email" placeholder='Email*' required />
+            </div>
+            <div className="input-bl d-f">
+              <input type="tel" name="phone" placeholder='Phone Number*' required />
+              <input type="text" name='city' placeholder='City*' required />
+            </div>
+            <textarea name="message" placeholder='Your Message'></textarea>
+            <button>Submit Message</button>
+          </form>
+        </div>
+        <div className="home-contact-clients d-f">
+          <div><img src="images/client-logo1.png" alt="client-logo1" /></div>
+          <div><img src="images/client-logo2.png" alt="client-logo2" /></div>
+          <div><img src="images/client-logo3.png" alt="client-logo3" /></div>
+          <div><img src="images/client-logo4.png" alt="client-logo4" /></div>
+        </div>
+      </div>
+      <div className="home-blog">
+        <div className="home-blog-caption d-f">
+          <div className="home-blog-pattern"></div>
+          <div className="home-blog-above">Our Blog</div>
+        </div>
+        <h3 className="home-blog-title">Our Latest News</h3>
+        <div className="home-blog-box d-f">
+          <div className="home-blog-item d-f">
+            <div>
+              <img src="images/blog1.png" alt="blog1" />
+              <div className="blog-item-more d-n">Read More</div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <div><img src="images/calendar.png" alt="calendar" /></div>
+              <div className="blog-item-date">08</div>
+              <div className="blog-item-month">September</div>
+            </div>
+            <div><img src="images/blog-divider.png" alt="blog-divider" /></div>
+            <div>
+              <div className="blog-item-title">Inland freight a worthy solution for your business</div>
+              <p className="blog-item-desc">
+                We are dedicated in creating added value for our customers by implementing modern technology in our work.
+              </p>
+              <ul className="blog-item-list">
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+              </ul>
+            </div>
+          </div>
+          <div className="home-blog-item d-f">
+            <div>
+              <img src="images/blog2.png" alt="blog2" />
+              <div className="blog-item-more d-n">Read More</div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <div><img src="images/calendar.png" alt="calendar" /></div>
+              <div className="blog-item-date">12</div>
+              <div className="blog-item-month">September</div>
+            </div>
+            <div><img src="images/blog-divider.png" alt="blog-divider" /></div>
+            <div>
+              <div className="blog-item-title">How technology can help redraw the supply chain map</div>
+              <p className="blog-item-desc">
+                We are dedicated in creating added value for our customers by implementing modern technology in our work.
+              </p>
+              <ul className="blog-item-list">
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+              </ul>
+            </div>
+          </div>
+          <div className="home-blog-item d-f">
+            <div>
+              <img src="images/blog3.png" alt="blog3" />
+              <div className="blog-item-more d-n">Read More</div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <div><img src="images/calendar.png" alt="calendar" /></div>
+              <div className="blog-item-date">25</div>
+              <div className="blog-item-month">September</div>
+            </div>
+            <div><img src="images/blog-divider.png" alt="blog-divider" /></div>
+            <div>
+              <div className="blog-item-title">Five things you should have ready for your broker</div>
+              <p className="blog-item-desc">
+                We are dedicated in creating added value for our customers by implementing modern technology in our work.
+              </p>
+              <ul className="blog-item-list">
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+                <li>Urgent transport solutions</li>
+                <li>Reliable & experienced staffs</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <button className='home-blog-more'>More Blog</button>
+      </div>
+      <div className="home-bottom"><img src="images/home-bottom.png" alt="home-bottom" /></div>
     </main>
   )
 }

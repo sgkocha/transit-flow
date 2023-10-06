@@ -1,0 +1,42 @@
+.footer {
+    margin-top: -4px;
+    background-color: #091242;
+}
+
+.footer-heading {
+    width: 312px;
+    height: 118px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.footer-info {
+    margin-top: 43px;
+    margin-left: 45px;    
+}
+
+.footer-desc {
+    width: 319px;
+    margin-top: 77px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #E8E8E8;
+}
+
+.footer-contact {
+    margin-top: 33px;    
+}
+
+.footer-contact-bl {
+    gap: 14px;
+}
+
+.footer-contact .contact-bl-title {
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+

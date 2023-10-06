@@ -11,7 +11,8 @@
 .home-testimonial-pattern,
 .home-choose-pattern,
 .home-team-pattern,
-.home-contact-pattern {
+.home-contact-pattern,
+.home-blog-pattern {
     width: 4px;
     height: 23px;
     background-color: rgba(255, 182, 41, 1);
@@ -124,7 +125,8 @@
 .home-testimonial-above,
 .home-choose-above,
 .home-team-above,
-.home-contact-above {
+.home-contact-above,
+.home-blog-above {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 8px;
@@ -514,6 +516,7 @@
 
 .home-contact-content {
     margin-top: 13px;
+    gap: 88px;
 }
 
 .home-contact-title {
@@ -539,7 +542,7 @@
 .home-contact-info .contact-info-bl {
     gap: 12.5px;
     margin-bottom: 30px;
-} 
+}
 
 .home-contact-info .contact-info-bl:last-child {
     margin-bottom: 0;
@@ -553,3 +556,181 @@
     line-height: 135%;
     color: #FFFFFF;
 }
+
+.home-contact-fm .input-bl {
+    gap: 28px;
+    margin-bottom: 31px;
+}
+
+.home-contact-fm input {
+    display: block;
+    width: 365px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    background-color: transparent;
+    border: 1px solid #4E5683;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.home-contact-fm input::placeholder {
+    color: #FFFFFF;
+}
+
+.home-contact-fm textarea {
+    width: 758px;
+    height: 154px;
+    padding-top: 21px;
+    padding-left: 24px;
+    background-color: transparent;
+    border: 1px solid #4E5683;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.home-contact-fm textarea::placeholder {
+    color: #FFFFFF;
+}
+
+.home-contact-fm button {
+    display: block;
+    width: 194px;
+    margin-top: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: rgba(255, 182, 41, 1);
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212A;
+    cursor: pointer;
+}
+
+.home-contact-clients {
+    margin-top: 70px;
+}
+
+.home-blog {
+    width: fit-content;
+    margin: 98px auto;
+    margin-bottom: 0;
+}
+
+.home-blog-caption {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.home-blog-title {
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #1C1F35;
+}
+
+.home-blog-box {
+    margin-top: 39px;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.home-blog-item {
+    gap: 20px;
+    padding-top: 29px;
+    border-top: 1px solid #D6D6D6;
+    position: relative;
+}
+
+.blog-item-date {
+    font-weight: 600;
+    font-size: 40px;
+    color: #1C1F35;
+}
+
+.blog-item-month,
+.blog-item-desc,
+.blog-item-list li {
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.blog-item-title {
+    width: 335px;
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.blog-item-desc {
+    width: 335px;
+    margin-top: 16px;
+}
+
+.blog-item-list {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.blog-item-list li {
+    line-height: 166.5%;
+    color: #1C1F35;
+}
+
+.home-blog-item:nth-child(2) .blog-item-title {
+    width: 348px;
+    color: #FFBE34;
+}
+
+.home-blog-item:nth-child(3) {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.home-blog-more {
+    display: block;
+    width: 194px;
+    margin: 39px auto;
+    margin-bottom: 0;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: url("/public/images/blog-more-bg.png") no-repeat;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.blog-item-more {
+    width: 337px;
+    padding-top: 101px;
+    padding-bottom: 100px;
+    background-color: #1C1F35;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;    
+    color: #FFFFFF;
+    position: absolute;
+    top: 72px;
+    left: 50px;
+}
+
+.home-blog-item:hover .blog-item-more {
+    display: block;
+} 
+
+.home-bottom {
+    margin-top: 100px;
+}
+

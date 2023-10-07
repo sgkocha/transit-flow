@@ -1,0 +1,177 @@
+.about-main {
+    padding-top: 119px;
+    padding-bottom: 198px;
+    padding-left: 360px;
+    background: url("/public/images/about-main-bg.png") no-repeat;
+}
+
+.about-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.about-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.about-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.about-company {
+    margin-top: 103px;
+    margin-left: 90px;
+    gap: 100px;
+}
+
+.about-company-pattern,
+.about-services-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.about-company-above,
+.about-services-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.about-company-title {
+    margin-top: 18px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.about-company-desc {
+    width: 604px;
+    margin-top: 12px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.about-company-tabs {
+    margin-top: 19px;
+}
+
+.company-tabs-controls {
+    gap: 14px;
+}
+
+.company-tabs-btn {
+    width: 192px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 151.5%;
+    color: #1C1F35;
+    cursor: pointer;
+}
+
+.about-company-tabs .tabs-btn__active {
+    background-color: #FFB82B;
+    border: 1px solid #FFB82B;
+    color: #FFFFFF;
+}
+
+.company-tabs-content {
+    width: 603px;
+    margin-top: 27px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.about-company-more,
+.about-services-more {
+    display: block;
+    width: 194px;
+    margin-top: 30px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: url("/public/images/blog-more-bg.png");
+    border: 0;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.about-services {
+    margin-top: 100px;
+    padding-top: 108px;
+    padding-bottom: 108px;
+    padding-left: 359px;
+    padding-right: 359px;
+    background-color: #F4F4F4;
+}
+
+.about-services-caption {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.about-services-title {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #1C1F35;
+}
+
+.about-services-box {
+    margin-top: 55px;
+    flex-wrap: wrap;
+    column-gap: 115px;
+    row-gap: 53px;
+}
+
+.about-services-item {
+    width: 277px;
+}
+
+.about-services-item .services-item-title {
+    margin-top: 22px;
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.about-services-item .services-item-desc {
+    margin-top: 13px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #666C89;
+}
+
+.about-services-more {
+    margin: 55px auto;
+    margin-bottom: 0;
+}

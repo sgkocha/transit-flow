@@ -26,7 +26,7 @@ const Header = () => {
                 <nav>
                     <ul className="header-nav-list d-f align-center">
                         <li className="nav-list-item"><Link to="/">Home</Link></li>
-                        <li className="nav-list-item"><a href="">About</a></li>
+                        <li className="nav-list-item"><Link to="about">About</Link></li>
                         <li className="nav-list-item dropdown-item d-f">
                             <a href="">Pages</a>
                             <button className='dropdown-link-btn'><img src="images/arrow-down1.png" alt="arrow-down" /></button>

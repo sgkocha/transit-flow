@@ -35,14 +35,20 @@
 }
 
 .about-company-pattern,
-.about-services-pattern {
+.about-services-pattern,
+.about-pricing-pattern,
+.about-faq-pattern,
+.faq-contact-pattern {
     width: 4px;
     height: 23px;
     background-color: rgba(255, 182, 41, 1);
 }
 
 .about-company-above,
-.about-services-above {
+.about-services-above,
+.about-pricing-above,
+.about-faq-above,
+.faq-contact-above {
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 9px;
@@ -108,7 +114,8 @@
 }
 
 .about-company-more,
-.about-services-more {
+.about-services-more,
+.pricing-item-choose {
     display: block;
     width: 194px;
     margin-top: 30px;
@@ -133,12 +140,15 @@
     background-color: #F4F4F4;
 }
 
-.about-services-caption {
+.about-services-caption,
+.about-pricing-caption {
     width: fit-content;
     margin: 0 auto;
 }
 
-.about-services-title {
+.about-services-title,
+.about-pricing-title,
+.about-faq-title {
     margin-top: 15px;
     font-weight: 600;
     font-size: 35px;
@@ -174,4 +184,177 @@
 .about-services-more {
     margin: 55px auto;
     margin-bottom: 0;
+}
+
+.about-pricing {
+    margin-top: 101px;
+    margin-left: 361px;
+    margin-right: 361px;
+}
+
+.about-pricing-box {
+    margin-top: 64px;
+}
+
+.about-pricing-item {
+    width: 380px;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #F4F4F4;
+    text-align: center;
+}
+
+.pricing-item-title {
+    font-size: 30px;
+    color: #1C1F35;
+}
+
+.pricing-item-price {
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 85px;
+    color: #1C1F35;
+}
+
+.pricing-item-price span {
+    margin-left: -5px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.pricing-item-features {
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.pricing-item-features li {
+    margin-bottom: 15px;
+    padding-top: 17px;
+    border-top: 1px solid #D6D6D6;
+    font-size: 20px;
+    color: #1C1F35;
+}
+
+.pricing-item-features li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.pricing-item-choose {
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+.pricing-item__active {
+    background-color: #091242;
+}
+
+.pricing-item__active .pricing-item-title,
+.pricing-item__active .pricing-item-price,
+.pricing-item__active .pricing-item-features li {
+    color: #FFFFFF;
+}
+
+.pricing-item__active .pricing-item-choose {
+    background: url(/public/images/explore-bg.png) no-repeat;
+    color: #23212A;
+}
+
+.about-faq-wr {
+    margin-top: 100px;
+    position: relative;
+}
+
+.about-faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 358px;
+    background-color: #F4F4F4;
+}
+
+.about-faq-title {
+    width: 308px;
+    text-align: left;
+}
+
+.about-faq-box {
+    width: 681px;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.faq-question {
+    font-size: 20px;
+    color: #1C1F35;
+}
+
+.faq-question-btn {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.faq-content {
+    width: 569px;
+    margin-top: 18px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+
+}
+
+.about-faq-contact {
+    width: 448px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 62px;
+    padding-right: 62px;
+    background-color: #091242;
+    position: absolute;
+    top: 186px;
+    right: 360px;
+}
+
+.faq-contact-title {
+    width: 324px;
+    margin-top: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.faq-contact-bl {
+    margin-top: 21px;
+    gap: 9.5px;
+}
+
+.faq-contact-bl .contact-bl-title {
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    line-height: 135%;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.faq-contact-btn {
+    display: block;
+    width: 142px;
+    margin-top: 26px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background:  url("/public/images/faq-contact-btn.png") no-repeat;
+    border: 0;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    line-height: 135%;
+    font-size: 16px;
+    color: #23212A;
+    cursor: pointer;
 }

@@ -31,6 +31,7 @@ const Header = () => {
                             <a href="">Pages</a>
                             <button className='dropdown-link-btn'><img src="images/arrow-down1.png" alt="arrow-down" /></button>
                         </li>
+                        <li className="nav-list-item"><Link to="services">Services</Link></li>
                         <li className="nav-list-item"><a href="">Projects</a></li>
                         <li className="nav-list-item"><a href="">Contact</a></li>
                     </ul>

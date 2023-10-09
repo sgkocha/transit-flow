@@ -358,13 +358,13 @@ const About = () => {
                     <div className="faq-contact-title">You need any help? Get free consultation</div>
                     <div className="faq-contact-bl d-f align-center">
                         <div><img src="images/phone.png" alt="phone" /></div>
-                        <div className="contact-bl-title">Have Any Questions <br /> (00) 112 365 489</div>
-                        
+                        <div className="contact-bl-title">Have Any Questions <br /> (00) 112 365 489</div>   
                     </div>
                     <button className='faq-contact-btn'>Contact Us</button>
                 </div>
             </div>
-            <div style={{ marginBottom: "20px" }}></div>
+            <div className="about-clients"><img src="images/clients-logo.png" alt="clients-log" /></div>
+            <div style={{ marginBottom: "80px" }}></div>
         </main>
     )
 }

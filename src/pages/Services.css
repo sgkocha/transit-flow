@@ -1,0 +1,113 @@
+.services-main {
+    padding-top: 119px;
+    padding-bottom: 127px;
+    padding-left: 360px;
+    background: url("/public/images/services-main-bg.png");
+    background-position-y: -166px;
+}
+
+.services-main-pattern,
+.services-goodness-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.services-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.services-main-title {
+    width: 410px;
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.services-goodness {
+    margin-top: 102.71px;
+    padding-top: 103px;
+    padding-bottom: 103px;
+    padding-left: 209px;
+    padding-right: 359.75px;
+    background-color: #F4F4F4;
+}
+
+.services-goodness-caption {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.services-goodness-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.services-goodness-title {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #1C1F35;
+}
+
+.services-goodness-box {
+    margin-top: 35px;
+}
+
+.services-goodness-content {
+    flex-direction: column;
+    gap: 55.37px;
+}
+
+.goodness-content-bl {
+    gap: 11.63px;
+}
+
+.goodness-content-bl .content-bl-title {
+    margin-top: 11.63px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.goodness-content-bl .content-bl-desc {
+    width: 468px;
+    margin-top: 12px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.services-counter {
+    margin-top: 115px;
+    margin-left: 91px;
+}
+
+.services-counter-item {
+    gap: 16px;
+    padding-top: 46px;
+    padding-bottom: 51px;
+    padding-left: 81px;
+    padding-right: 52px;
+    border-right: 1px solid #D4D4D4;
+}
+
+.services-counter-item:last-child {
+    border: 0;
+} 

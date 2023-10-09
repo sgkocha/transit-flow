@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Services.css"
 
 const Services = () => {
@@ -19,7 +20,7 @@ const Services = () => {
                 <h3 className="about-services-title">Our Logistics Services</h3>
                 <div className="about-services-box d-f" style={{ justifyContent: "space-around" }}>
                     <div className="about-services-item">
-                        <div><img src="images/service1.png" alt="service1" /></div>
+                        <div> <Link to='/service'><img src="images/service1.png" alt="service1" /></Link> </div>
                         <div className="services-item-title">Sea Transport Services</div>
                         <p className="services-item-desc">
                             Following the quality of our service thus having gained trust of our many clients.
@@ -167,24 +168,24 @@ const Services = () => {
             </div>
             <div className="services-counter d-f">
                 <div className="services-counter-item d-f align-center">
-                     <div className="counter-item-num">24</div>
-                     <div className="counter-item-pattern"></div>
-                     <div className="counter-item-title">Our Location</div>   
+                    <div className="counter-item-num">24</div>
+                    <div className="counter-item-pattern"></div>
+                    <div className="counter-item-title">Our Location</div>
                 </div>
                 <div className="services-counter-item d-f align-center">
-                     <div className="counter-item-num">1294</div>
-                     <div className="counter-item-pattern"></div>
-                     <div className="counter-item-title">Delivered Packages</div>   
+                    <div className="counter-item-num">1294</div>
+                    <div className="counter-item-pattern"></div>
+                    <div className="counter-item-title">Delivered Packages</div>
                 </div>
                 <div className="services-counter-item d-f align-center">
-                     <div className="counter-item-num">3594</div>
-                     <div className="counter-item-pattern"></div>
-                     <div className="counter-item-title">Satisfied Clients</div>   
+                    <div className="counter-item-num">3594</div>
+                    <div className="counter-item-pattern"></div>
+                    <div className="counter-item-title">Satisfied Clients</div>
                 </div>
                 <div className="services-counter-item d-f align-center">
-                     <div className="counter-item-num">247+</div>
-                     <div className="counter-item-pattern"></div>
-                     <div className="counter-item-title">Owned Vehicles</div>   
+                    <div className="counter-item-num">247+</div>
+                    <div className="counter-item-pattern"></div>
+                    <div className="counter-item-title">Owned Vehicles</div>
                 </div>
             </div>
             <div style={{ marginBottom: "8px" }}></div>

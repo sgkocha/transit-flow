@@ -1,0 +1,61 @@
+.service-main {
+    padding-top: 159px;
+    padding-bottom: 158px;
+    padding-left: 361px;
+    background: url("/public/images/service-main-bg.png");
+    background-position-y: -166px;
+}
+
+.service-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.services-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.service-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.service-info {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 361px;
+}
+
+.service-info-caption {
+    margin-top: 40px;
+    margin-bottom: 22px;
+    gap: 6.19px;
+}
+
+.service-info-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.service-info-desc {
+    margin-bottom: 20px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.service-info-desc:last-child {
+    margin-bottom: 0;
+}

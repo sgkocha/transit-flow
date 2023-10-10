@@ -21,7 +21,7 @@ const Services = () => {
                 <div className="about-services-box d-f" style={{ justifyContent: "space-around" }}>
                     <div className="about-services-item">
                         <div> <Link to='/service'><img src="images/service1.png" alt="service1" /></Link> </div>
-                        <div className="services-item-title">Sea Transport Services</div>
+                        <div className="services-item-title" style={{color: "#FFB82B"}}>Sea Transport Services</div>
                         <p className="services-item-desc">
                             Following the quality of our service thus having gained trust of our many clients.
                         </p>

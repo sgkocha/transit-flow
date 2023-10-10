@@ -59,3 +59,39 @@
 .service-info-desc:last-child {
     margin-bottom: 0;
 }
+
+.service-benefit,
+.service-works {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.service-benefit .service-info-desc {
+    width: 442px;
+    margin-top: 12px;
+}
+
+.service-benefit-list {
+    margin-top: 40px;
+    list-style-image: url("/public/images/vector.png");
+}
+
+.service-benefit-list li {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #1C1F35;
+}
+
+.service-benefit-list li:last-child {
+    margin-bottom: 0;
+}
+
+.service-works .service-info-title {
+    margin-bottom: 15px;
+}
+
+.service-works .service-info-desc {
+    width: 490px;
+}

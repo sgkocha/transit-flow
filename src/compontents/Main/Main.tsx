@@ -5,6 +5,7 @@ import About from '../../pages/About'
 import Services from '../../pages/Services'
 import Service from '../../pages/Service'
 import Projects from '../../pages/Projects'
+import Project from '../../pages/Project'
 
 const Main = () => {
     return (
@@ -28,6 +29,10 @@ const Main = () => {
             <Route
                 path='projects'
                 element={<Projects />}
+            />
+            <Route
+                path='project' 
+                element={<Project/>}
             />
         </Routes>
     )

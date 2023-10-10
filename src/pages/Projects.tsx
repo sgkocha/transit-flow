@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Projects.css'
 
 const Projects = () => {
@@ -14,7 +15,9 @@ const Projects = () => {
       <div className="projects-gallery d-f jc-sb">
         <div className='projects-gallery-item'>
           <img src="images/projects1.png" alt="projects1" />
-          <div className="gallery-item-hover d-n"><img src="images/gallery-item-hover.png" alt="gallery-item-hover" /></div>
+          <div className="gallery-item-hover d-n">
+             <Link to='/project'><img src="images/gallery-item-hover.png" alt="gallery-item-hover" /></Link>  
+          </div>
         </div>
         <div className='projects-gallery-item'>
           <img src="images/projects2.png" alt="projects2" />
@@ -59,7 +62,7 @@ const Projects = () => {
                     <div className="counter-item-title">Owned Vehicles</div>
                 </div>
             </div>
-      <div style={{ marginBottom: "120px" }}></div>
+      <div style={{ marginBottom: "6px" }}></div>
     </main>
   )
 }

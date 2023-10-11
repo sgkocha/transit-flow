@@ -6,6 +6,7 @@ import Services from '../../pages/Services'
 import Service from '../../pages/Service'
 import Projects from '../../pages/Projects'
 import Project from '../../pages/Project'
+import Blog from '../../pages/Blog'
 
 const Main = () => {
     return (
@@ -31,8 +32,12 @@ const Main = () => {
                 element={<Projects />}
             />
             <Route
-                path='project' 
-                element={<Project/>}
+                path='project'
+                element={<Project />}
+            />
+            <Route
+                path='blog'
+                element={<Blog />}
             />
         </Routes>
     )

@@ -62,7 +62,7 @@ const Projects = () => {
                     <div className="counter-item-title">Owned Vehicles</div>
                 </div>
             </div>
-      <div style={{ marginBottom: "6px" }}></div>
+   
     </main>
   )
 }

@@ -37,7 +37,10 @@
     background-color: #F4F4F4;
 }
 
-.project-details-title {
+.project-details-title,
+.project-transportation-title,
+.project-video-title,
+.project-related-title {
     font-weight: 600;
     font-size: 35px;
     color: #1C1F35;
@@ -65,3 +68,72 @@
     font-size: 20px;
     color: #1C1F35;
 }
+
+.project-transportation {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 361px;
+}
+
+.project-transportation-desc,
+.project-video-desc {
+    margin-top: 12px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.project-transportation-list {
+    margin-top: 30px;
+    margin-left: 20px;
+    flex-direction: column;
+    gap: 25px;
+    list-style-image: url("/public/images/vector.png");
+}
+
+.project-transportation-list li {
+    font-size: 20px;
+    color: #1C1F35;
+}
+
+.project-video {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+.project-video-content {
+    margin-top: 30px;
+}
+
+.project-related {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 361px;
+}
+
+.project-related-box {
+    margin-top: 35px;
+}
+
+.project-related-item {
+    position: relative;
+
+}
+
+.related-item-hover {
+    width: 292px;
+    height: 322px;
+    padding-top: 132px;
+    background-color: #1C1F35;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 40px;
+} 
+
+.project-related-item:hover .related-item-hover {
+    display: block;
+} 

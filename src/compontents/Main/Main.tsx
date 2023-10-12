@@ -7,6 +7,7 @@ import Service from '../../pages/Service'
 import Projects from '../../pages/Projects'
 import Project from '../../pages/Project'
 import Blog from '../../pages/Blog'
+import SingleBlog from '../../pages/SingleBlog'
 
 const Main = () => {
     return (
@@ -38,6 +39,10 @@ const Main = () => {
             <Route
                 path='blog'
                 element={<Blog />}
+            />
+            <Route
+                path='single-blog'
+                element={<SingleBlog/>}
             />
         </Routes>
     )

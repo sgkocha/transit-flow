@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Blog.css'
 
 const Blog = () => {
@@ -44,7 +45,7 @@ const Blog = () => {
                     <div className="blog-our-item d-f">
                         <div className="our-item-img">
                             <img src="images/Blog/blog2.png" alt="blog2" />
-                            <div className="item-img-hover d-n">Read More</div>
+                            <div className="item-img-hover d-n"> <Link to='/single-blog'>Read More</Link></div>
                         </div>
                         <div className='our-item-calendar'>
                             <div><img src="images/calendar.png" alt="calendar" /></div>

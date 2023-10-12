@@ -145,6 +145,15 @@
     left: 40px;
 }
 
+.blog-our-item .item-img-hover a {
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .blog-our-item .our-item-img:hover .item-img-hover {
     display: block;
 }

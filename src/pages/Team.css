@@ -1,0 +1,111 @@
+.team-main {
+    padding-top: 154px;
+    padding-bottom: 153px;
+    padding-left: 360px;
+    background: url("/public/images/team-main-bg.png") no-repeat;
+    background-position-y: -88px;
+}
+
+.team-main-pattern,
+.team-choose-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.team-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.team-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.team-about {
+    margin: 0;
+    padding-top: 107px;
+    padding-bottom: 107px;
+    padding-left: 360px;
+    padding-right: 360px;
+    background-color: #F4F4F4;
+}
+
+.team-about .home-team-box {
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.team-choose {
+    margin-top: 101px;
+    margin-left: 188px;
+    margin-right: 361px;
+}
+
+.team-choose-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.team-choose-title {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.team-choose-desc {
+    width: 560px;
+    margin-top: 12px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D6D6D6;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.team-choose-content {
+    gap: 83px;
+    margin-top: 32px;
+}
+
+.team-choose-content .choose-content-item {
+    width: 230px;
+} 
+
+.team-choose-content .choose-content-item .content-item-title {
+    margin-top: 11px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #1C1F35;
+}
+
+.team-choose-content .choose-content-item .content-item-desc {
+    margin-top: 12px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.team-clients {
+    margin-top: 37px;
+    margin-left: 359px;
+    margin-right: 361px;
+}

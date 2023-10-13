@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -26,9 +27,9 @@ const Footer = () => {
         <div className='footer-bl' style={{marginLeft: "63px"}}>
           <div className="footer-bl-title">Pages</div>
           <ul className='footer-bl-list'>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Our Team</a></li>
-            <li><a href="">Our Project</a></li>
+            <li><Link to="about">About Us</Link></li>
+            <li><Link to="team">Our Team</Link></li>
+            <li><Link to="projects">Our Projects</Link></li>
             <li><a href="">Pricing</a></li>
             <li><a href="">Contact</a></li>
           </ul>

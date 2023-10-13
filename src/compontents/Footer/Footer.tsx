@@ -31,7 +31,7 @@ const Footer = () => {
             <li><Link to="team">Our Team</Link></li>
             <li><Link to="projects">Our Projects</Link></li>
             <li><a href="">Pricing</a></li>
-            <li><a href="">Contact</a></li>
+            <li><Link to="contact">Contact</Link></li>
           </ul>
         </div>
         <div className='footer-bl'>

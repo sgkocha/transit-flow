@@ -9,6 +9,7 @@ import Project from '../../pages/Project'
 import Blog from '../../pages/Blog'
 import SingleBlog from '../../pages/SingleBlog'
 import Team from '../../pages/Team'
+import Contact from '../../pages/Contact'
 
 const Main = () => {
     return (
@@ -48,6 +49,10 @@ const Main = () => {
             <Route
                 path='team'
                 element = {<Team/>}
+            />
+            <Route
+                path='contact'
+                element={<Contact/>}
             />
         </Routes>
     )

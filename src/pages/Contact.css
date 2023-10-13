@@ -1,0 +1,160 @@
+.contact-main {
+    padding-top: 157px;
+    padding-bottom: 160px;
+    padding-left: 360px;
+    background: url("/public/images/contact-main-bg.png") no-repeat;
+    background-position-y: -88px;
+}
+
+.contact-main-pattern,
+.contact-touch-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.contact-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.contact-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.contact-touch {
+    width: 954px;
+    margin: 100px auto;
+    margin-bottom: 0;
+    padding: 101px 98px;
+    background-color: #091242;
+}
+
+.contact-touch-caption {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.contact-touch-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(232, 232, 232, 0.5);
+    font-size: 14px;
+    color: #1C1F35;
+}
+
+.contact-touch-title {
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-touch-desc {
+    width: 717px;
+    margin: 3px auto;
+    margin-bottom: 0;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-touch-info {
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.touch-info-item {
+    text-align: center;
+}
+
+.touch-info-title {
+    margin-top: 11px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135%;
+    color: #FFFFFF;
+}
+
+.contact-touch-fm {
+    margin-top: 22px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 31px;
+}
+
+.contact-touch-fm .input-bl {
+    gap: 28px;
+}
+
+.contact-touch-fm .input-bl input {
+    display: block;
+    width: 365px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.contact-touch-fm .input-bl input::placeholder {
+    color: #FFFFFF;
+}
+
+.contact-touch-fm textarea {
+    width: 758px;
+    height: 154px;
+    padding-top: 21px;
+    padding-left: 24px;
+    background-color: transparent;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.contact-touch-fm textarea::placeholder {
+    color: #FFFFFF;
+}
+
+.contact-touch-fm button {
+    display: block;
+    width: 194px;
+    margin: 0 auto;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: url("/public/images/explore-bg.png") no-repeat;
+    border: 0;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212A;
+    cursor: pointer;
+}
+
+.contact-clients {
+    margin-top: 50px;
+    margin-left: 360px;
+    margin-right: 360px;
+}

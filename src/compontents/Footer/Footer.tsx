@@ -39,8 +39,7 @@ const Footer = () => {
           <ul className='footer-bl-list'>
             <li><a href="">Style Guide</a></li>
             <li><Link to="change-log">Changelog</Link></li>
-            <li><a href="">Our Project</a></li>
-            <li><a href="">Licenses</a></li>
+            <li><Link to="licenses">Licenses</Link></li>
             <li><a href="">Protected</a></li>
             <li><Link to="not-found">Not Found</Link></li>
           </ul>

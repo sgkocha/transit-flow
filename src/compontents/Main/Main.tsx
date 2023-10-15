@@ -13,6 +13,7 @@ import Contact from '../../pages/Contact'
 import Pricing from '../../pages/Pricing'
 import NotFound from '../../pages/NotFound'
 import ChangeLog from '../../pages/ChangeLog'
+import Licenses from '../../pages/Licenses'
 
 const Main = () => {
     return (
@@ -68,6 +69,10 @@ const Main = () => {
             <Route
                 path='change-log'
                 element={<ChangeLog/>}
+            />
+            <Route
+                path='licenses'
+                element={<Licenses/>}
             />
         </Routes>
     )

@@ -1,0 +1,71 @@
+.licenses-main {
+    padding-top: 129px;
+    padding-bottom: 144px;
+    padding-left: 360px;
+    background: url("/public/images/licenses-main-bg.png") no-repeat;
+    background-position-y: -71px;
+}
+
+.licenses-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.licenses-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.licenses-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.licenses-info {
+    margin-top: 100px;
+    margin-left: 362px;
+    margin-right: 361px;
+    flex-wrap: wrap;
+    row-gap: 78px;
+    column-gap: 123px;
+}
+
+.licenses-info-title {
+    width: 274px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 116%;
+    color: #1C1F35;
+}
+
+.licenses-info-desc {
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 147.5%;
+    color: #666C89;
+}
+
+.licenses-info-subtitle {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 116%;
+    color: #1C1F35;
+}
+
+.licenses-info-subtitle span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.licenses-info-desc span {
+    font-weight: 600;
+}

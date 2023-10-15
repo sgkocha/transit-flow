@@ -11,6 +11,8 @@ import SingleBlog from '../../pages/SingleBlog'
 import Team from '../../pages/Team'
 import Contact from '../../pages/Contact'
 import Pricing from '../../pages/Pricing'
+import NotFound from '../../pages/NotFound'
+import ChangeLog from '../../pages/ChangeLog'
 
 const Main = () => {
     return (
@@ -45,19 +47,27 @@ const Main = () => {
             />
             <Route
                 path='single-blog'
-                element={<SingleBlog/>}
+                element={<SingleBlog />}
             />
             <Route
                 path='team'
-                element = {<Team/>}
+                element={<Team />}
             />
             <Route
                 path='contact'
-                element={<Contact/>}
+                element={<Contact />}
             />
             <Route
                 path='pricing'
-                element={<Pricing/>}
+                element={<Pricing />}
+            />
+            <Route
+                path='not-found'
+                element={<NotFound />}
+            />
+            <Route
+                path='change-log'
+                element={<ChangeLog/>}
             />
         </Routes>
     )

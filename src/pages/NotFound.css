@@ -1,0 +1,78 @@
+.nf-main {
+    padding-top: 66.82px;
+    padding-bottom: 80.7px;
+    padding-left: 360px;
+    background: url("/public/images/nf-main-bg.png") no-repeat;
+    background-position-y: -88px;
+}
+
+.nf-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.nf-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nf-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.nf-content {
+    width: fit-content;
+    margin: 100px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.nf-content-title {
+    font-weight: 600;
+    font-size: 350px;
+    color: #1C1F35;
+}
+
+.nf-content-title span {
+    color: #FFB82B;
+}
+
+.nf-contnent-subtitle {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.nf-content-desc {
+    margin-top: 7px;
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.5%;
+    color: #666C89;
+}
+
+.nf-content-back {
+    display: block;
+    width: 194px;
+    margin: 26px auto;
+    margin-bottom: 0;
+    padding: 19px 45px;
+    background-color: rgba(255, 182, 41, 1);
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    text-decoration: none;
+    color: #23212A;
+}

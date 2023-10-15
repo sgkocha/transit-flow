@@ -1,0 +1,56 @@
+.change-main {
+    padding-top: 137px;
+    padding-bottom: 136px;
+    padding-left: 360px;
+    background: url("/public/images/change-main-bg.png") no-repeat;
+    background-position-y: -71px;
+}
+
+.change-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.change-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.change-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.change-newsletter {
+    width: 762px;
+    margin: 172px auto;
+    margin-bottom: 0;
+    padding: 96px 81px;
+    background-color: #091242;
+    gap: 37px;
+}
+
+.change-newsletter-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 116%;
+    color: #FFFFFF;
+}
+
+.change-newsletter-desc {
+    width: 381px;
+    padding: 20px 22px;
+    background-color: #1C2551;
+    font-family: 'Krub', sans-serif;
+    font-size: 16px;
+    line-height: 116%;
+    color: #FFFFFF;
+}

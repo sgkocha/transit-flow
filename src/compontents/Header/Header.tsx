@@ -34,7 +34,7 @@ const Header = () => {
                         <li className="nav-list-item"><Link to="services">Services</Link></li>
                         <li className="nav-list-item"><Link to="projects">Projects</Link></li>
                         <li className="nav-list-item"><Link to="blog">Blog</Link></li>
-                        <li className="nav-list-item"><a href="">Contact</a></li>
+                        <li className="nav-list-item"><Link to="contact">Contact</Link></li>
                     </ul>
                 </nav>
                 <div className="header-bar-actions d-f align-center">

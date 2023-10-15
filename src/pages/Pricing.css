@@ -1,0 +1,31 @@
+.pricing-main {
+    padding-top: 141px;
+    padding-bottom: 176px;
+    padding-left: 360px;
+    background: url("/public/images/pricing-main-bg.png") no-repeat;
+    background-position-y: -88px;
+}
+
+.pricing-main-pattern,
+.pricing-choose-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.pricing-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.pricing-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}

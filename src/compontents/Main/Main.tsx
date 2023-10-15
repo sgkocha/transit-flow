@@ -10,6 +10,7 @@ import Blog from '../../pages/Blog'
 import SingleBlog from '../../pages/SingleBlog'
 import Team from '../../pages/Team'
 import Contact from '../../pages/Contact'
+import Pricing from '../../pages/Pricing'
 
 const Main = () => {
     return (
@@ -53,6 +54,10 @@ const Main = () => {
             <Route
                 path='contact'
                 element={<Contact/>}
+            />
+            <Route
+                path='pricing'
+                element={<Pricing/>}
             />
         </Routes>
     )

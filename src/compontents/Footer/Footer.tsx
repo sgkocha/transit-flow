@@ -37,10 +37,10 @@ const Footer = () => {
         <div className='footer-bl'>
           <div className="footer-bl-title">Utility</div>
           <ul className='footer-bl-list'>
-            <li><a href="">Style Guide</a></li>
+            <li><Link to="style-guide">Style Guide</Link></li>
             <li><Link to="change-log">Changelog</Link></li>
             <li><Link to="licenses">Licenses</Link></li>
-            <li><a href="">Protected</a></li>
+            <li><Link to="protection">Protected</Link></li>
             <li><Link to="not-found">Not Found</Link></li>
           </ul>
         </div>

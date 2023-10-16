@@ -1,0 +1,73 @@
+.guide-main {
+    padding-top: 147px;
+    padding-bottom: 163px;
+    padding-left: 362px;
+    background: url("/public/images/guide-main-bg.png") no-repeat;
+    background-position-y: -227px;
+}
+
+.guide-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.guide-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.guide-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.guide-color {
+    margin-top: 150px;
+    margin-left: 360px;
+    margin-right: 348px;
+}
+
+.guide-bl-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+.guide-text {
+    gap: 248px;
+    margin-top: 96px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    padding-left: 360px;
+    background-color: #F4F4F4;
+}
+
+.guide-paragraph {
+    gap: 141px;
+    margin-top: 114px;
+    margin: 362px;
+    margin-right: 340px;
+}
+
+.guide-buttons {
+    gap: 202px;
+    margin-top: 120px;
+    padding-top: 127px;
+    padding-bottom: 127px;
+    padding-left: 360px;
+    background-color: #F4F4F4;
+}
+
+.guide-icon {
+    gap: 246px;
+    margin-top: 91px;
+    margin-left: 362px;
+}

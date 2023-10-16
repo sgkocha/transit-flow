@@ -14,6 +14,8 @@ import Pricing from '../../pages/Pricing'
 import NotFound from '../../pages/NotFound'
 import ChangeLog from '../../pages/ChangeLog'
 import Licenses from '../../pages/Licenses'
+import Protection from '../../pages/Protection'
+import StyleGuide from '../../pages/StyleGuide'
 
 const Main = () => {
     return (
@@ -73,6 +75,14 @@ const Main = () => {
             <Route
                 path='licenses'
                 element={<Licenses/>}
+            />
+            <Route
+                path='protection'
+                element={<Protection/>}
+            />
+            <Route
+                path='style-guide'
+                element={<StyleGuide/>}
             />
         </Routes>
     )

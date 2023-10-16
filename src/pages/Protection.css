@@ -1,0 +1,86 @@
+.protection-main {
+    padding-top: 129px;
+    padding-bottom: 144px;
+    padding-left: 360px;
+    background: url("/public/images/protection-main-bg.png") no-repeat;
+    background-position-y: -71px;
+}
+
+.protection-main-pattern {
+    width: 4px;
+    height: 23px;
+    background-color: rgba(255, 182, 41, 1);
+}
+
+.protection-main-above {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.protection-main-title {
+    margin-top: 11px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.protection-pwd {
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-right: 360px;
+    padding: 126px 351px;
+    background-color: #091242;
+}
+
+.protection-pwd-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 116%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.protection-pwd-fm {
+    gap: 25px;
+    width: fit-content;
+    margin: 42px auto;
+    margin-bottom: 0;
+}
+
+.protection-pwd-fm input {
+    display: block;
+    width: 317px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    background-color: transparent;
+    border: 1px solid #4E5683;
+    outline: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    color: #999999;
+}
+
+.protection-pwd-fm input::placeholder {
+    color: #999999;
+}
+
+.protection-pwd-fm button {
+    display: block;
+    width: 156px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background: url("/public/images/pwd-submit-bg.png") no-repeat;
+    border: 0;
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212A;
+    cursor: pointer;
+}
